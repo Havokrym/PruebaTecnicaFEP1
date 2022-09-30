@@ -41,7 +41,7 @@ export class EpisodioService {
             titulo: res.title,
             director: res.director,
             episodio: res.episode_id,
-            lanzamiento: res.created,
+            lanzamiento: res.release_date,
             
             naves: res.starships,
             personajes: res.characters,
