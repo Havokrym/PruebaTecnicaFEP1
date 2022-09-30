@@ -1,0 +1,26 @@
+
+<div class="container">
+    <div class="container" *ngFor="let episodio of depisodios">
+        <div >
+            <h2>{{episodio.titulo}}</h2>
+                <h3>Director: {{episodio.director}}</h3>
+                <h3>Episodio: {{episodio.episodio}}</h3>
+                <h3>{{episodio.lanzamiento | date: 'mediumDate'}}</h3>
+            <div class="container">
+                <div class="dcard">
+                    <h3>Lista de naves:</h3>
+                <h5 *ngFor="let naves of dNave">{{naves}}</h5>
+            </div>
+            <div class="dcard">
+                <h3>Lista de personajes:</h3>
+                <h5 *ngFor="let personajes of dPersonaje">{{personajes}}</h5>
+            </div>
+            <div class="dcard">
+                <h3>Lista de planetas:</h3>
+                <h5 *ngFor="let planetas of dPlaneta">{{planetas}}</h5>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+

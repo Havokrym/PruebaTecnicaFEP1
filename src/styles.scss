@@ -1,0 +1,65 @@
+.img{
+    margin-right: 20px;
+}
+.separador{
+    display: flex;
+}
+.espaciado{
+    margin-top: 5px;
+}
+.container{
+   float: left;
+   height:fit-content;
+   width: fit-content;
+    display: flex;
+    background-color: white;
+}
+.card{
+    box-shadow: 0 5px 5px rgba(0,0,0,.12),
+    0 5px 5px rgba(0,0,0,.24);
+    width: 180px;
+    margin: 10px 0;
+    margin-right: 5px;
+    padding: 0 10px;
+    float: left;
+    background-color: black;
+    color: gold;
+    &:hover{
+        box-shadow: 0 5px 5px rgba(0,0,0,.2),
+        0 6px 6px rgba(0,0,0,.24);
+        cursor: pointer;
+    }
+}
+
+.dcard{
+    box-shadow: 0 5px 5px rgba(0,0,0,.12),
+    0 5px 5px rgba(0,0,0,.24);
+    width: 500px;
+    height:fit-content;
+    margin: 10px 80px;
+    margin-right: 5px;
+    padding: 0 10px;
+    float: left;
+    background-color: black;
+    color: gold;
+    &:hover{
+        box-shadow: 0 5px 5px rgba(0,0,0,.2),
+        0 6px 6px rgba(0,0,0,.24);
+        cursor: pointer;
+    }
+}
+
+.containerf{
+    float: left;
+    margin-left: 40%;
+    text-align: center;
+
+    height:fit-content;
+    width: 20%;
+    display: flex;
+    display: block;
+
+ }
+ .footer{
+    text-align: center;
+ }

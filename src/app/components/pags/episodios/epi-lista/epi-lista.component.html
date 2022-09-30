@@ -1,0 +1,18 @@
+<div class="separador">
+    
+    <div class="container" *ngFor="let episodio of episodios">
+        
+        <div class="card">
+                <a [routerLink]="['/epi-detalles', episodio.episodio]">
+                    <h2>{{episodio.titulo}}</h2>
+                </a>
+                <h3 class="espaciado">Director: {{episodio.director}}</h3>
+                <h3>Episodio: {{episodio.episodio}}</h3>
+                <h3>{{episodio.lanzamiento | date: 'mediumDate'}}</h3>
+                
+        </div>
+    </div>
+</div>
+
+
+
